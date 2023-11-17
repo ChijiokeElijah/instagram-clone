@@ -1,5 +1,6 @@
 'use client'
 
+import Post from "./Posts";
 import Stories from "./Stories";
 
 
@@ -11,6 +12,7 @@ export default function Feed() {
             <Stories/>
 
             {/* Posts */}
+            <Post/>
         </section>
         <section>
             {/* Mini profile */}
