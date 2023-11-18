@@ -1,5 +1,6 @@
 'use client'
 
+import MiniProfile from "./MiniProfile";
 import Post from "./Posts";
 import Stories from "./Stories";
 
@@ -15,9 +16,15 @@ export default function Feed() {
             <Post/>
         </section>
         <section className="hidden  md:inline-grid md:col-span-1">
+          <div className="fixed w-[380px]">
             {/* Mini profile */}
+            <MiniProfile/>
+
+
 
             {/* suggestions */}
+          </div>
+            
         </section>
 
     </main>
